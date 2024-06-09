@@ -1,65 +1,84 @@
-# Q.A Challenge Luma Store
+# Projeto de Automação - Luma Store QA
 
-Este é um desafio para que possamos ver as suas habilidades como QA/Tester.
+Este projeto é parte do processo seletivo da InfinityBase para a automação da Luma Store.
 
-Nesse desafio você deverá testar de forma automatizada o site Luma Store. O projeto a ser desenvolvido por você tem como objetivo exibir executar ações na loja conforme indicado nos casos de uso que estão logo abaixo.
+Dados da aplicação: https://magento.softwaretestingboard.com/
 
-[SPOILER] As instruções de entrega e apresentação do challenge estão no final deste Readme (=
+## Descrição
 
-### Antes de começar
- 
-- Considere como prazo limite da avaliação o período a partir do início do teste. Se, por algum motivo, não for possível concluir dentro deste prazo, avise a pessoa que o convidou para receber instruções sobre o que fazer.
-- Documente todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes quanto o seu processo de pensamento e decisões à medida que as completa, por isso, tente documentar e apresentar as suas hipóteses e decisões na medida do possível.
+Este projeto contém testes automatizados para a aplicação Luma Store, utilizando o framework Cypress para a automação de testes e a geração de relatórios Mochawesome para análise dos resultados. Além disso, são utilizado arquivos Javacript para agrupamento de funções e melhor manutenção do código. 
 
+## Tecnologia(s) utilizada(s) e Framework(s) utilizado(s)
 
-#### Tecnologias:
-- Ferramenta: Ghost Inspector, Selenium, Cypress, Robot Framework, ou outro de seu conhecimento
-- Adicionais: Cucumber ou outros plugins necessários para configurar a ferramenta
+- Cypress 
+- Javascript 
 
-## Teste
+## Motivação da utilização do Framework 
 
-Neste desafio aplicaremos os conceitos de teste caixa preta, onde testaremos a página https://magento.softwaretestingboard.com
+O Cypress oferece uma experiência de automação de testes moderna, intuitiva e eficiente, destacando-se pelo seu foco em testes end-to-end e arquitetura única. Além disso, ele permite a realização de uma variedade de testes, incluindo testes de API, atendendo aos requisitos do projeto.
 
-> Nota: utilize dados fictícios criados através do site https://randomuser.me
+Além do resumo acima, segue o detalhamento da motivação: 
 
-**Obrigatório 1** - Para realizar o teste precisamos escolher a ferramenta de teste. Explicar o por quê da escolha, as vantagens e desvantagens dos que não foram escolhidos.
+- Facilidade de uso: A sintaxe limpa e intuitiva do Cypress facilita a escrita e manutenção dos testes, mesmo para iniciantes em automação de testes.
 
-**Obrigatório 2** - Você deverá atender aos seguintes casos de uso:
+- Interface interativa: A interface gráfica interativa do Cypress oferece uma visualização em tempo real da execução dos testes, facilitando a depuração e compreensão do fluxo de teste.
 
-- Se a página está carregando corretamente a home page;
-- Buscar por `shirt` no menu superior e revisar se a página de resultados carregou corretamente. Veja o diferencial 1 para incrementar este caso de uso;
-- Adicionar um produto no carrinho
-- Realizar checkout
+- Velocidade na exeução: A arquitetura sem dependência de Selenium e a execução assíncrona do Cypress resultam em uma execução rápida dos testes, otimizando o tempo de desenvolvimento.
 
-### Diferenciais
-Além do que foi solicitado, existem itens adicionais para incrementar o projeto final. Você também pode adicionar algum recurso não citado anteriormente.
+- Suporte integrado: O Cypress oferece suporte nativo para testes end-to-end, mas também pode ser usado para realizar outros tipos de testes, como testes de API, atendendo às necessidades do projeto.
 
-- **Diferencial 1** - Buscar por `shirt` no menu superior e clicar no último resultado sugerido. Se possível, escute o retorno da requisição para saber o momento de clicar na interface;
-- **Diferencial 2** - Criar uma conta na tela de Login/Cadastro. Observe que existe um captcha no formulário, então é necessário decidir como abordar este campo;
-- **Diferencial 3** - Adicionar um produto **aleatório** do catalogo de moda masculina no carrinho;
-- **Diferencial 4** - Adicionar comentário em um produto **aleatório** do catálogo de moda masculina no carrinho;
-- **Diferencial 5** - Gerar um relatório automático do teste.
+- Clareza na obtenção do erro: O Cypress fornece mensagens de erro claras e precisas, facilitando a identificação e resolução de problemas durante o desenvolvimento dos testes.
 
-## Readme do Repositório
+- Relatórios detalhados e possibilidade de dashboards através do próprio cypress: O Cypress gera relatórios detalhados dos resultados dos testes, permitindo a análise de métricas importantes. Além disso, é possível criar dashboards personalizados diretamente no Cypress.
 
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
+- Documentação clara e objetiva:  A documentação do Cypress é abrangente, clara e objetiva, fornecendo orientações detalhadas para utilização e resolução de problemas. 
 
->  This is a challenge by [Coodesh](https://coodesh.com/)
+Por fim, o Cypress está em constante evolução em conjunto com o mercado, simplificando a execução de ações e oferecendo suporte em comunidades online relacionadas ao framework, o que contribui para uma experiência de automação de testes eficaz e confiável.
 
-## Finalização e Instruções para a Apresentação
+## Pré-requisitos
 
-1. Adicione o link do repositório com a sua solução no teste
-2. Verifique se o Readme está bom e faça o commit final em seu repositório;
-3. Envie e aguarde as instruções para seguir. Sucesso e boa sorte. =)
+Certifique-se de ter o Node.js instalado em seu sistema antes de prosseguir. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
 
-## Suporte
+## Instalação
 
-Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma. 
+1. Clone este repositório para o seu ambiente local:
 
+```bash
+git clone https://github.com/Jorgesousa4/luma_store_QA.git
+```
 
-Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma. 
+2. Navegue até o diretório do projeto
+
+```bash
+cd automation-luma_store_qa
+```
+
+3. Instale as dependências do projeto utilizando o npm
+
+```bash
+npm install
+
+```
+
+## Execução dos Testes 
+
+Para executar os testes, utilize o seguinte comando 
+
+```bash
+node index.js 
+```
+Ou, utilize essa segunda opção para gerar o relatório de testes 
+
+```bash
+npx cypress run --reporter mochawesome
+```
+
+Isso iniciará a execução dos testes automatizados utilizando o Cypress.
+
+## Geração de Relatórios
+
+Após a execução dos testes, um relatório Mochawesome será gerado automaticamente na pasta cypress/reports/index.html. 
+
+Para abrir o relatório basta navegar até a pasta reports e clicar duas vezes com o botão esquerdo. 
+
+Este projeto é um desafio da [Coodesh](https://coodesh.com/).

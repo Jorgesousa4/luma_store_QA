@@ -1,0 +1,38 @@
+# Diretórios temporários e de cache
+node_modules/
+bower_components/
+dist/
+tmp/
+cache/
+logs/
+.cache/
+.idea/
+.vscode/
+
+# Arquivos gerados
+*.log
+*.err
+*.stacktrace
+coverage/
+test-results/
+screenshots/
+
+# Arquivos pessoais 
+*.iml
+*.suo
+*.sdf
+*.db
+*.pdb
+*.exe
+*.dll
+*.tmp
+*.vscode/*
+*.idea/*
+
+# Arquivos adicionais
+LICENSE
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+package-lock.json
+yarn.lock
