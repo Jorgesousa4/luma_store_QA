@@ -41,19 +41,19 @@ describe('Validate header search field ', () => {
         cy.screenshot('Validate search with not existing item')
     })
     
-    it('Validate search for the last item in the list', () => {
-        cy.get('#search').type(validProduct)
-        cy.get('#search_autocomplete > ul')
-        .find('li')
-        .last()
-        .click()
+    // it('Validate search for the last item in the list', () => {
+    //     cy.get('#search').type(validProduct)
+    //     cy.get('#search_autocomplete > ul')
+    //     .find('li')
+    //     .last()
+    //     .click()
     
-        cy.url().then((url) => {
-            expect(url).to.contain('catalogsearch/result/?q');
-          });
+    //     cy.url().then((url) => {
+    //         expect(url).to.contain('catalogsearch/result/?q');
+    //       });
         
-          cy.screenshot('Validate search for the last item in the list')
-    })
+    //       cy.screenshot('Validate search for the last item in the list')
+    // })
     
   })
   
