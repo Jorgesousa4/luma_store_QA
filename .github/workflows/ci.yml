@@ -12,19 +12,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'  # ou outra versão que seu projeto requer
-
-      - name: Clean npm cache
-        run: npm cache clean --force
+          node-version: '20.11.0'  # ou outra versão que seu projeto requer
 
       - name: Install dependencies
         run: npm install --verbose
-
-      - name: Build project
-        run: npm run build
-
-      - name: Start project
-        run: npm start &
-
+        
+      - name: Clean npm cache
+        run: npm cache clean --force
+        
       - name: Cypress run
         uses: cypress-io/github-action@v6
