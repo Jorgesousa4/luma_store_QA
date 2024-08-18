@@ -23,7 +23,7 @@ describe('CreateAccount', () => {
             cy.get('#password-confirmation').type(password)
             cy.contains('button', 'Create an Account').click()
             cy.contains('There is already an account with this email address').should('be.visible')
-        
+            
             cy.screenshot('Create an account with existing data')
     })
   })
