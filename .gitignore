@@ -1,14 +1,3 @@
-# Diretórios temporários e de cache
-node_modules/
-bower_components/
-dist/
-tmp/
-cache/
-logs/
-.cache/
-.idea/
-.vscode/
-
 # Arquivos gerados
 *.log
 *.err
@@ -16,15 +5,3 @@ logs/
 coverage/
 test-results/
 screenshots/
-
-# Arquivos pessoais 
-*.iml
-*.suo
-*.sdf
-*.db
-*.pdb
-*.exe
-*.dll
-*.tmp
-*.vscode/*
-*.idea/*
