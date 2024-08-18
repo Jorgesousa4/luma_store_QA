@@ -28,11 +28,3 @@ screenshots/
 *.tmp
 *.vscode/*
 *.idea/*
-
-# Arquivos adicionais
-LICENSE
-README.md
-CHANGELOG.md
-CONTRIBUTING.md
-package-lock.json
-yarn.lock
