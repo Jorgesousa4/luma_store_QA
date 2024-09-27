@@ -1,7 +1,5 @@
 # Projeto de Automação - Luma Store QA
 
-Este projeto é parte do processo seletivo da InfinityBase para a automação da Luma Store.
-
 Dados da aplicação: https://magento.softwaretestingboard.com/
 
 ## Descrição
